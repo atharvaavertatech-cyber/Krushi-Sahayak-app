@@ -1,0 +1,11 @@
+{
+  "name": "Konkan Krushi Sahayak",
+  "description": "Voice-first Konkan mango farming assistant with leaf disease diagnosis, laterite soil guidance, and Marathi speech support.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

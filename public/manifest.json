@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "कोकण कृषी सहाय्यक (Konkan Krushi)",
+  "short_name": "कृषी सहाय्यक",
+  "description": "Voice-first Konkan mango farming assistant with leaf disease diagnosis, laterite soil advice, and Marathi speech support.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#064e3b",
+  "background_color": "#064e3b",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

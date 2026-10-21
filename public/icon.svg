@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b4332" />
+      <stop offset="100%" stop-color="#081c15" />
+    </linearGradient>
+    <linearGradient id="mangoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffb703" />
+      <stop offset="50%" stop-color="#fb8500" />
+      <stop offset="100%" stop-color="#d90429" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#74c69d" />
+      <stop offset="100%" stop-color="#2d6a4f" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  <circle cx="256" cy="256" r="230" fill="none" stroke="#2d6a4f" stroke-width="4" stroke-opacity="0.4" />
+
+  <!-- Leaf Shape -->
+  <path d="M 270 120 C 350 140 400 220 370 300 C 340 380 240 370 200 320 C 230 250 240 180 270 120 Z" fill="url(#leafGrad)" />
+  <path d="M 270 120 C 280 220 230 280 200 320" stroke="#1b4332" stroke-width="6" stroke-linecap="round" fill="none" />
+
+  <!-- Alphonso Mango Shape -->
+  <path d="M 240 170 C 290 170 340 210 340 280 C 340 360 260 410 190 380 C 130 350 120 270 160 210 C 185 175 215 170 240 170 Z" fill="url(#mangoGrad)" filter="drop-shadow(0px 8px 16px rgba(0,0,0,0.3))" />
+
+  <!-- Stem -->
+  <path d="M 240 170 C 240 130 220 110 200 100" stroke="#78350f" stroke-width="12" stroke-linecap="round" fill="none" />
+
+  <!-- Konkan Krushi Assistant Microphone Badge -->
+  <circle cx="370" cy="370" r="65" fill="#2d6a4f" stroke="#ffffff" stroke-width="6" filter="drop-shadow(0px 6px 12px rgba(0,0,0,0.3))" />
+  <!-- Mic icon inside badge -->
+  <rect x="360" y="335" width="20" height="36" rx="10" fill="#ffffff" />
+  <path d="M 348 358 C 348 375 360 384 370 384 C 380 384 392 375 392 358" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" />
+  <line x1="370" y1="384" x2="370" y2="398" stroke="#ffffff" stroke-width="5" stroke-linecap="round" />
+  <line x1="358" y1="398" x2="382" y2="398" stroke="#ffffff" stroke-width="5" stroke-linecap="round" />
+</svg>
